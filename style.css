@@ -15,42 +15,68 @@ nav {
   height: 2vh;
 }
 .huddle button {
+  background-color: white;
+
+  border-radius: 2rem;
   border: none;
-  font-size: 1.3rem;
+  height: 3vw;
+  width: 15%;
+  font-size: 0.8rem;
 }
 .build {
   display: grid;
-  grid-row: auto;
-  gap: 3vw;
+  grid-template-columns: 1fr 1fr;
+  gap: 12vw;
 }
+.build button {
+  background-color: rgb(235, 103, 125);
+  color: white;
+  border-radius: 2rem;
+  border: none;
+  height: 3.5vh;
+  width: 40%;
+}
+
 .build img {
   height: 25vh;
 }
 .sections {
+  width: 90%;
+  margin: auto;
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  gap: 2vw;
+  grid-template-columns: 1fr 1fr;
+  gap: 7vw;
 }
 
 .sections div {
   text-align: center;
 }
 .sections img {
-  height: 5vh;
+  height: 20vh;
 }
-.ready > * {
-  margin: auto;
+.ready {
+  text-align: center;
 }
 .ready button {
-  background-color: pink;
-  border: none;
+  background-color: rgb(235, 103, 125);
   color: white;
+  border-radius: 2rem;
+  border: none;
+  height: 3.5vh;
+  width: 25%;
 }
 footer {
   background-color: rgb(37, 37, 71);
   color: white;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+footer ul {
+  list-style-type: none;
+}
+footer a {
+  text-decoration: none;
+  color: black;
 }
 footer img {
   height: 3vh;
