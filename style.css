@@ -1,0 +1,47 @@
+* {
+  border: 1px solid;
+  background-repeat: no-repeat;
+}
+nav {
+  background-image: url(images/bg-hero-desktop.svg);
+}
+.huddle {
+  display: flex;
+  justify-content: space-between;
+}
+.huddle img {
+  height: 2vh;
+}
+.huddle button {
+  border: none;
+  font-size: 1.3rem;
+}
+.sections {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 2vw;
+}
+
+.sections div {
+  text-align: center;
+}
+.sections img {
+  height: 5vh;
+}
+.ready > * {
+  margin: auto;
+}
+.ready button {
+  background-color: pink;
+  border: none;
+  color: white;
+}
+footer {
+  background-color: rgb(37, 37, 71);
+  color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+footer img {
+  height: 3vh;
+}
