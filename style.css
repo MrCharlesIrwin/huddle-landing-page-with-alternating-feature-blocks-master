@@ -1,9 +1,11 @@
 * {
   border: 1px solid;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 nav {
   background-image: url(images/bg-hero-desktop.svg);
+  background-color: rgb(191, 235, 235);
 }
 .huddle {
   display: flex;
@@ -15,6 +17,14 @@ nav {
 .huddle button {
   border: none;
   font-size: 1.3rem;
+}
+.build {
+  display: grid;
+  grid-row: auto;
+  gap: 3vw;
+}
+.build img {
+  height: 25vh;
 }
 .sections {
   display: grid;
