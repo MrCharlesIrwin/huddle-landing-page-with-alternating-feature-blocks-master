@@ -8,6 +8,7 @@
 nav {
   background-image: url(images/bg-hero-desktop.svg);
   background-color: hsl(193, 100%, 96%);
+  margin-bottom: 10%;
 }
 .huddle {
   display: flex;
@@ -26,6 +27,8 @@ nav {
   font-size: 0.8rem;
 }
 .build {
+  margin-top: 5%;
+
   display: flex;
   align-items: center;
   gap: 12vw;
@@ -44,6 +47,8 @@ nav {
   height: 25vh;
 }
 .sections {
+  border-radius: 0.4rem;
+  border-color: grey;
   width: 90%;
   margin: 3vh auto;
   display: flex;
@@ -76,24 +81,28 @@ footer {
   color: white;
 }
 footer img {
-  height: 3vh;
+  height: 4vh;
 }
 
 footer section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 8%;
 }
 #before-img p:nth-child(1) {
   font-size: 14px;
 }
 #before-img p:nth-child(1)::before {
   content: url(images/icon-location.svg);
+  margin-right: 4%;
 }
 #before-img p:nth-child(2)::before {
   content: url(images/icon-phone.svg);
+  margin-right: 4%;
 }
 #before-img p:nth-child(3)::before {
   content: url(images/icon-email.svg);
+  margin-right: 4%;
 }
 footer ul {
   list-style-type: none;
@@ -105,7 +114,7 @@ footer ul li {
 }
 footer a {
   text-decoration: none;
-  color: red;
+  color: white;
 }
 #copy {
   position: relative;
