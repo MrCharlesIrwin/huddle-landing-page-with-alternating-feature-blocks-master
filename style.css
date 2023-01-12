@@ -2,11 +2,12 @@
   border: 1px solid;
   background-repeat: no-repeat;
   background-size: contain;
-  font-size: 12px;
+  font-size: 18px;
 }
+
 nav {
   background-image: url(images/bg-hero-desktop.svg);
-  background-color: rgb(191, 235, 235);
+  background-color: hsl(193, 100%, 96%);
 }
 .huddle {
   display: flex;
@@ -31,7 +32,7 @@ nav {
 }
 
 .build button {
-  background-color: rgb(235, 103, 125);
+  background-color: hsl(322, 100%, 66%);
   color: white;
   border-radius: 2rem;
   border: none;
@@ -63,7 +64,7 @@ nav {
   width: 50%;
 }
 .ready button {
-  background-color: rgb(235, 103, 125);
+  background-color: hsl(322, 100%, 66%);
   color: white;
   border-radius: 2rem;
   border: none;
@@ -71,7 +72,7 @@ nav {
   width: 25%;
 }
 footer {
-  background-color: rgb(37, 37, 71);
+  background-color: hsl(192, 100%, 9%);
   color: white;
 }
 footer img {
@@ -81,6 +82,18 @@ footer img {
 footer section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+#before-img p:nth-child(1) {
+  font-size: 14px;
+}
+#before-img p:nth-child(1)::before {
+  content: url(images/icon-location.svg);
+}
+#before-img p:nth-child(2)::before {
+  content: url(images/icon-phone.svg);
+}
+#before-img p:nth-child(3)::before {
+  content: url(images/icon-email.svg);
 }
 footer ul {
   list-style-type: none;
