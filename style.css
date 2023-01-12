@@ -2,6 +2,7 @@
   border: 1px solid;
   background-repeat: no-repeat;
   background-size: contain;
+  font-size: 12px;
 }
 nav {
   background-image: url(images/bg-hero-desktop.svg);
@@ -24,10 +25,11 @@ nav {
   font-size: 0.8rem;
 }
 .build {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
   gap: 12vw;
 }
+
 .build button {
   background-color: rgb(235, 103, 125);
   color: white;
@@ -42,20 +44,23 @@ nav {
 }
 .sections {
   width: 90%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin: 3vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 7vw;
 }
 
 .sections div {
-  text-align: center;
+  width: 50%;
 }
 .sections img {
   height: 20vh;
 }
 .ready {
+  margin: auto;
   text-align: center;
+  width: 50%;
 }
 .ready button {
   background-color: rgb(235, 103, 125);
@@ -73,10 +78,11 @@ footer {
 }
 footer ul {
   list-style-type: none;
+  columns: 2;
 }
 footer a {
   text-decoration: none;
-  color: black;
+  color: red;
 }
 footer img {
   height: 3vh;
