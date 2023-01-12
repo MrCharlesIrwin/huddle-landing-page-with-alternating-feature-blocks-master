@@ -26,6 +26,9 @@ nav {
   width: 15%;
   font-size: 0.8rem;
 }
+.huddle button:hover {
+  cursor: pointer;
+}
 .build {
   margin-top: 5%;
 
@@ -41,6 +44,10 @@ nav {
   border: none;
   height: 3.5vh;
   width: 40%;
+}
+.build button:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 .build img {
@@ -75,6 +82,10 @@ nav {
   border: none;
   height: 3.5vh;
   width: 25%;
+}
+.ready button:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 footer {
   background-color: hsl(192, 100%, 9%);
@@ -115,6 +126,9 @@ footer ul li {
 footer a {
   text-decoration: none;
   color: white;
+}
+footer a:hover {
+  cursor: pointer;
 }
 #copy {
   position: relative;
