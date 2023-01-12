@@ -73,17 +73,31 @@ nav {
 footer {
   background-color: rgb(37, 37, 71);
   color: white;
+}
+footer img {
+  height: 3vh;
+}
+
+footer section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 footer ul {
   list-style-type: none;
   columns: 2;
+  column-gap: 25%;
+}
+footer ul li {
+  margin-bottom: 10%;
 }
 footer a {
   text-decoration: none;
   color: red;
 }
-footer img {
-  height: 3vh;
+#copy {
+  position: relative;
+}
+#copy p {
+  position: absolute;
+  bottom: 0;
 }
