@@ -158,3 +158,42 @@ footer a:hover {
   position: absolute;
   bottom: 0;
 }
+@media only screen and (max-width: 600px) {
+* {
+  font-size: 11px
+  
+}
+.huddle button{
+  width: 30%;
+}
+.build {
+  flex-direction: column;
+  width: 100%;
+
+}
+.build div {
+  width: 80%;
+  text-align: center;
+}
+.build button {
+  height: 5vh;
+  width: 55%;
+}
+.build img {
+  margin-top: 5vh;
+  height: 32vh;
+}
+.sections {
+  flex-direction: column-reverse;
+
+}
+
+.sections div {
+  margin-bottom: 7vh ;
+  width: 90%;
+  text-align: center;
+}
+#no-reverse {
+  flex-direction: column;
+}
+}
