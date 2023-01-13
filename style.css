@@ -4,7 +4,9 @@
   background-size: contain;
   font-size: 18px;
 }
-
+body {
+  margin: 0%;
+}
 nav {
   background-image: url(images/bg-hero-desktop.svg);
   background-color: hsl(193, 100%, 96%);
@@ -13,37 +15,46 @@ nav {
 .huddle {
   display: flex;
   justify-content: space-between;
+  width: 96%;
+  margin: 5vh auto;
 }
 .huddle img {
-  height: 2vh;
+  height: 3vh;
 }
 .huddle button {
   background-color: white;
-
   border-radius: 2rem;
   border: none;
-  height: 3vw;
-  width: 15%;
+  height: 4vh;
+  width: 10%;
   font-size: 0.8rem;
 }
 .huddle button:hover {
   cursor: pointer;
 }
 .build {
-  margin-top: 5%;
-
   display: flex;
   align-items: center;
-  gap: 12vw;
+  gap: 4vw;
+  width: 90%;
+  margin: 10vh auto;
 }
-
+.build > * {
+  margin: auto;
+}
+.build h2 {
+  font-size: 2.1rem;
+}
+.build div {
+  width: 30%;
+}
 .build button {
   background-color: hsl(322, 100%, 66%);
   color: white;
   border-radius: 2rem;
   border: none;
-  height: 3.5vh;
-  width: 40%;
+  height: 4.5vh;
+  width: 45%;
 }
 .build button:hover {
   cursor: pointer;
@@ -51,7 +62,7 @@ nav {
 }
 
 .build img {
-  height: 25vh;
+  height: 60vh;
 }
 .sections {
   border-radius: 0.4rem;
@@ -61,44 +72,54 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 7vw;
+  gap: 25vw;
 }
-
+.sections h4 {
+  font-size: 1.3rem;
+}
 .sections div {
-  width: 50%;
+  width: 30%;
 }
 .sections img {
-  height: 20vh;
+  height: 40vh;
 }
 .ready {
-  margin: auto;
+  position: absolute;
+  background-color: white;
+  left: 30%;
+  top: 247%;
   text-align: center;
-  width: 50%;
+  width: 33%;
+  border-radius: 0.5rem;
+  border-color: grey;
+}
+.ready h3 {
+  font-size: 1.5rem;
 }
 .ready button {
   background-color: hsl(322, 100%, 66%);
+  margin-bottom: 3vh;
   color: white;
   border-radius: 2rem;
   border: none;
-  height: 3.5vh;
-  width: 25%;
+  height: 5vh;
+  width: 38%;
 }
 .ready button:hover {
   cursor: pointer;
   opacity: 0.5;
 }
 footer {
+  margin-top: 22vh;
   background-color: hsl(192, 100%, 9%);
   color: white;
 }
-footer img {
-  height: 4vh;
-}
-
 footer section {
+  width: 70%;
+  margin: 10vh auto 3vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 8%;
+  gap: 5%;
 }
 #before-img p:nth-child(1) {
   font-size: 14px;
